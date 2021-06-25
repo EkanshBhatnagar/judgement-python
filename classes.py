@@ -27,6 +27,7 @@ class Card(object):
             return str(self.rank.name) + " of " +str(self.suit.name)
 
 class CardStack(object):
+    cards = []
     def __init_(self):
         self.cards = []
 
